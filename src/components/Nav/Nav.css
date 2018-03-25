@@ -1,0 +1,119 @@
+nav {
+     background-color: #f3f3f3;
+     height: 50px;
+     position: relative;
+     width: 100%;
+     box-shadow: 0 1px 4px -2px rgba(0,0,0,0.4);
+     z-index: 1;
+}
+
+.menu-bar {
+    font-size: 32px;
+    text-align: right;
+}
+
+.nav-wide {
+    display: none;
+}
+
+.nav-narrow {
+    height: 50px;
+    text-align: right;
+}
+
+.narrowLinks {
+    display: none;
+    padding-top: 16px;
+}
+
+.link-container {
+    float: right;
+    width: 75%;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.link {
+    display: inline-block;
+    color: #3e3c3d;
+    padding: 10px 20px;
+    margin: 0 10px;
+    transition: background-color 1s ease-in;
+    line-height: 2;
+}
+
+.droplink {
+    display: block;
+    padding-bottom: 5px;
+    color: #3e3c3d;
+}
+
+.link:hover {
+    background-color: #b7fffa;
+}
+
+.dropdown-style {
+    line-height: 2;
+}
+
+@media (min-width: 1200px) {
+
+    nav {
+         position: fixed;
+     }
+
+    .nav-wide {
+        display: block;
+        height: 50px;
+    }
+
+    .nav-narrow {
+        display: none;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1199px) {
+
+    nav {
+        position: fixed;
+    }
+
+    .nav-wide {
+        display: block;
+        height: 50px;
+        font-size: 12px;
+    }
+
+    .link {
+        padding: 10px 15px;
+    }
+
+    .nav-narrow {
+        display: none;
+    }
+}
+
+@media (min-width: 840px) and (max-width: 999px) {
+
+    nav {
+        position: fixed;
+    }
+
+    .nav-wide {
+        display: block;
+        height: 50px;
+        font-size: 12px;
+    }
+
+    .link {
+        padding: 10px 8px;
+    }
+
+    .link-container {
+        width: 80%;
+    }
+
+    .nav-narrow {
+        display: none;
+    }
+}

@@ -1,0 +1,12 @@
+.image {
+    width: 100%;
+}
+
+.home {
+    height: 710px;
+    width: 100%;
+    background-image: url(../../data/images/smile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translateY(50px);
+}
