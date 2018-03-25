@@ -525,7 +525,8 @@ h2 {
 }
 
 .map {
-  height: 400px;
+  height: 50vh;
+  width: 100%;
 }
 
 @media (min-width: 1200px) {
@@ -617,6 +618,13 @@ h2 {
   }
 }
 
+@media (max-width: 991px) {
+  .map {
+    height: 80vh;
+    width: 95%;
+  }
+}
+
 @media (max-width: 767px) {
 
   h1 {
@@ -626,6 +634,7 @@ h2 {
   .greeting {
     font-size: 20px;
   }
+
 
 }
 

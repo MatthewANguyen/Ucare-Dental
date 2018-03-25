@@ -10,7 +10,9 @@ class About extends React.Component {
                     <div className="row">
                         <div className="col-md-6 col-sm-12 hours">
                             <div className="row">
-                                <h1>Office</h1>
+                                <div className="col-md-12">
+                                    <h1>Office</h1>
+                                </div>
                             </div>
                             <div className="row">
                                 <div className="col-md-12 col-sm-12">
@@ -20,7 +22,9 @@ class About extends React.Component {
                         </div>
                         <div className="col-md-6 col-sm-12">
                             <div className="row">
-                                <h1>Map</h1>
+                                <div className="col-md-12">
+                                    <h1>Map</h1>
+                                </div>
                             </div>
                             <div className="row">
                                 <div className='col-xs-12 map'>
