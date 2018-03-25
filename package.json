@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://matthewanguyen.github.io/UCare-Dental",
+  "homepage": "https://matthewanguyen.github.io/Ucare-Dental/",
   "dependencies": {
     "google-maps-react": "^1.1.4",
     "react": "^16.2.0",
