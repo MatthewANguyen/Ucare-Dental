@@ -50,9 +50,11 @@ class Services extends React.Component {
             <div className="services">
                 <div className="container">
                     <div className="row">
-                        <h1>
-                            Featured Services
-                        </h1>
+                        <div className="col-sm-12">
+                            <h1>
+                                Featured Services
+                            </h1>
+                        </div>
                     </div>
                     {service}
                     {backButton}
