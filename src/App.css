@@ -645,3 +645,12 @@ h2 {
   }
 
 }
+
+@media (max-width: 860px) {
+  .home, .office-hours, .about {
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
