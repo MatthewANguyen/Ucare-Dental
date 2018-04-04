@@ -61,8 +61,14 @@ class Office extends React.Component {
                              </div>
                         </div>
                         <div className="row">
-                            <div className="col-md-12">
+                            <div className="col-md-1">
+
+                            </div>
+                            <div className="col-md-10">
                                 <Slider/>
+                            </div>
+                            <div className="col-md-1">
+
                             </div>
                         </div>
                     </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import doctor from "../../data/images/Doctor.png";
 
 class Team extends React.Component {
     render() {
@@ -19,7 +20,7 @@ class Team extends React.Component {
                             </p>
                         </div>
                         <div className="col-md-6">
-
+                            <img className="doctor-img" src={doctor} alt="doctor"/>
                         </div>
                     </div>
                 </div>

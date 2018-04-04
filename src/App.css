@@ -267,6 +267,10 @@ nav {
   letter-spacing: 0.025px;
 }
 
+.doctor-img {
+  height: 700px;
+}
+
 h2 {
   font-size: 40px;
   margin: 80px 0 0 0;
