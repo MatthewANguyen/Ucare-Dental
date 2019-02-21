@@ -61,6 +61,7 @@ h1 {
   padding: 15px 5px 15px 15px;
   margin-bottom: 20px;
   width: 100%;
+  height: 213px;
   /*text-transform: uppercase;*/
 }
 
@@ -375,6 +376,26 @@ h2 {
   margin: 40px 0;
 }
 
+.slide-container {
+  width: 70%;
+  margin: auto;
+}
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 75vh;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+
 .office-image {
   width: 100%;
   height: auto;
@@ -625,7 +646,7 @@ h2 {
 @media (max-width: 991px) {
   .map {
     height: 80vh;
-    width: 95%;
+    width: 100%;
   }
 }
 

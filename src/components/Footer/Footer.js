@@ -37,6 +37,9 @@ class Footer extends React.Component {
                                 <div>
                                     <input type="text" className="form-input" placeholder="EMAIL"/>
                                 </div>
+                                <div>
+                                    <input type="text" className="form-input" placeholder="PHONE"/>
+                                </div>
                             </div>
                             <div className="col-sm-6">
                                 <textarea className="form-input-message" rows="5" placeholder="MESSAGE">
