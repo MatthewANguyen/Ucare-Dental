@@ -1,5 +1,4 @@
 import React from "react";
-import Slider from './Slider';
 import Slideshow from './Slideshow';
 
 class Office extends React.Component {
@@ -66,7 +65,6 @@ class Office extends React.Component {
 
                             </div>
                             <div className="col-md-10">
-                                {/*<Slider/>*/}
                                 <Slideshow/>
                             </div>
                             <div className="col-md-1">
