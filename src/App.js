@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Nav from './components/Nav/Nav.js';
 import Footer from './components/Footer/Footer.js';
 import Home from './components/Home/Home.js';
+import Featured from './components/Featured/Featured.js';
 import Team from './components/Team/Team.js';
 import Office from './components/Office/Office.js';
 import Services from './components/Services/Services.js';
@@ -15,6 +16,7 @@ class App extends Component {
       <div className="App">
           <Nav/>
           <Home name="home"/>
+          <Featured name="featured"/>
           <Team name="team"/>
           <Services name="services"/>
           <Office name="office"/>
