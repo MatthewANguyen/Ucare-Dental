@@ -437,6 +437,10 @@ h2 {
   transform: translate(2px);
 }
 
+.control-dots {
+  padding: 0;
+}
+
 .services {
   background-color: #f3f3f3;
   padding: 20px 0;
