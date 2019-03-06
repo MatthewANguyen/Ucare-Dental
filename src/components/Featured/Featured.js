@@ -1,5 +1,6 @@
 import React from "react";
 import "./Featured.css";
+import featured from "../../data/text/featured.js";
 
 class Featured extends React.Component {
     render() {
@@ -14,9 +15,16 @@ class Featured extends React.Component {
                     <div className="row">
                         <div className="col-md-6 col-sm-12">
                             <div>CEREC</div>
+                            {featured.cerec}
                         </div>
                         <div className="col-md-6 col-sm-12">
                             <div>Fast Braces</div>
+                            {featured.fastbraces}
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div>
+
                         </div>
                     </div>
                 </div>

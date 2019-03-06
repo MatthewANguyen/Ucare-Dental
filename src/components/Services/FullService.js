@@ -1,5 +1,5 @@
 import React from "react";
-import description from "../../data/service-descriptions/descriptions.js";
+import description from "../../data/text/descriptions.js";
 
 class FullService extends React.Component {
 

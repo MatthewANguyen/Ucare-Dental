@@ -22,7 +22,7 @@ class Nav extends React.Component {
                         <img className="logo" src={logo} alt="logo"/>
                     </div>
                     <div className="link-container nav-wide">
-                        <div className="wideDiv">
+                        <div>
                             <Link activeClass="active" to="home" spy={true} smooth={true} offset={offset} duration={duration} onSetActive={this.handleSetActive}>
                                 <div className='link'>
                                     Home
