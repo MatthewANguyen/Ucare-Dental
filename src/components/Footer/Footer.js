@@ -28,15 +28,15 @@ class Footer extends React.Component {
                                 </div>
                             </div>
                                 <div className="row">
-                                    <div className="col-md-4">
+                                    <div className="col-xs-4">
                                         <img src={instagram} className="social-media-icon" />
                                     </div>
-                                    <div className="col-md-4">
+                                    <div className="col-xs-4">
                                         <a href="https://www.facebook.com/ucare.dental.7" target="_blank">
                                         <img src={facebook} className="social-media-icon" />
                                         </a>
                                     </div>
-                                    <div className="col-md-4">
+                                    <div className="col-xs-4">
 
                                     </div>
                                 </div>
@@ -63,7 +63,6 @@ class Footer extends React.Component {
                             </div>
                             <button type="submit" className="btn btn-contact">Submit</button>
                         </div>
-
                     </div>
                 </div>
             </div>
