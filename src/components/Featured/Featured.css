@@ -1,7 +1,29 @@
 .featured-header {
     color: #151515;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Karla', sans-serif;
     font-weight: 300;
-    font-size: 26px;
+    font-size: 18px;
     text-transform: uppercase;
+}
+
+.featured-box {
+    background: rgba(61, 61, 61, 0.4);
+    font-size: 15px;
+    font-family: 'Karla', sans-serif;
+}
+
+.featured-box-even {
+    background: rgba(35, 35, 35, 0.4);
+    font-size: 15px;
+    font-family: 'Karla', sans-serif;
+}
+.icon-class {
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.featured-box p {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }

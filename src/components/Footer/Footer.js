@@ -1,4 +1,6 @@
 import React from "react";
+import instagram from "../../data/images/instagram_icon.png";
+import facebook from "../../data/images/facebook_icon.png";
 // import "./Footer.css";
 
 class Footer extends React.Component {
@@ -25,6 +27,19 @@ class Footer extends React.Component {
                                     </p>
                                 </div>
                             </div>
+                                <div className="row">
+                                    <div className="col-md-4">
+                                        <img src={instagram} className="social-media-icon" />
+                                    </div>
+                                    <div className="col-md-4">
+                                        <a href="https://www.facebook.com/ucare.dental.7" target="_blank">
+                                        <img src={facebook} className="social-media-icon" />
+                                        </a>
+                                    </div>
+                                    <div className="col-md-4">
+
+                                    </div>
+                                </div>
                         </div>
                         <div className="col-sm-8">
                             <h1>

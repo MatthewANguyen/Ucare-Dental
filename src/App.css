@@ -27,7 +27,7 @@ h1 {
 }
 
 .footer {
-  background-color: #3a3a3a;
+  background-color: #035db0;
   padding: 80px 0;
   font-family: 'Karla', sans-serif;
 }
@@ -36,39 +36,51 @@ h1 {
   background-color: transparent;
   border-width: 0 0 1px 0;
   border-radius: 0;
-  border-color: #7b7b7b;
+  border-color: #f3f3f3;
   box-shadow: 0 0;
   color: #f3f3f3;
   padding: 15px 5px 15px 15px;
   margin-bottom: 30px;
   width: 100%;
+  font-size: 13px;
   /*text-transform: uppercase;*/
 }
 
 .form-input:focus {
   outline-width: 0;
   box-shadow: none;
-  border-color: #7b7b7b;
+  border-color: #f3f3f3;
 }
 
 .form-input-message {
   background-color: transparent;
   border-width: 1px;
   border-radius: 0;
-  border-color: #7b7b7b;
+  border-color: #f3f3f3;
   box-shadow: 0 0;
   color: #f3f3f3;
   padding: 15px 5px 15px 15px;
   margin-bottom: 20px;
   width: 100%;
   height: 213px;
+  font-size: 13px;
   /*text-transform: uppercase;*/
 }
 
 .form-input-message:focus {
   outline-width: 0;
   box-shadow: none;
-  border-color: #7b7b7b;
+  border-color: #f3f3f3;
+}
+
+input::placeholder {
+  color: #acacac;
+  font-size: 15px;
+}
+
+textarea::placeholder {
+  color: #acacac;
+  font-size: 15px;
 }
 
 .glyphicon-style {
@@ -119,6 +131,15 @@ h1 {
 
 .btn-contact:hover {
   color: #9cdbff;
+}
+
+.social-media {
+}
+
+.social-media-icon {
+  height: 70px;
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 
 nav {
@@ -183,26 +204,27 @@ nav {
 
 .link-container {
   float: right;
-  width: 75%;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Karla', sans-serif;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
 .link {
   display: inline-block;
-  color: #3e3c3d;
+  color: #035db0;
   padding: 10px 30px;
   background-size: 100% 200%;
-  background-image: linear-gradient(to bottom, transparent 50%, #3b3b3b 50%);
+  background-image: linear-gradient(to bottom, transparent 50%, #035db0 50%);
   transition: background-position .75s, color .75s;
   line-height: 2;
   height: 50px;
+  font-size: 15px;
 }
 
 .droplink {
   display: block;
   padding-bottom: 12px;
-  color: #3e3c3d;
+  color: #035db0;
   font-size: 20px;
 }
 
@@ -220,23 +242,20 @@ nav {
 }
 
 .home {
-  height: 600px;
+  height: 750px;
   width: 100%;
-  background-image: url(data/images/sandiego.jpg);
-  background: linear-gradient(rgba(156, 219, 255, 0.4), rgba(156, 219, 255, 0.4)), url(./data/images/sandiego.jpg);
+  /*background: linear-gradient(rgba(156, 219, 255, 0.4), rgba(156, 219, 255, 0.4)), url(./data/images/sandiego.jpg);*/
   background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: #035db0 no-repeat fixed center;
 
 }
 
 .home-row {
-  height: 600px;
+  height: 750px;
 }
 
 .home-column {
-  height: 600px;
+  height: 750px;
   background: rgba(119,136,153,0.5);
 }
 
@@ -251,7 +270,7 @@ nav {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 26px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 .team {
@@ -286,7 +305,8 @@ h2 {
 }
 
 .office-hours {
-  background: linear-gradient(rgba(156, 219, 255, 0.65), rgba(156, 219, 255, 0.65)), url(./data/images/beach.jpg);
+  background: linear-gradient(rgba(156, 219, 255, 0.65), rgba(156, 219, 255, 0.65));
+  /*background: linear-gradient(rgba(156, 219, 255, 0.65), rgba(156, 219, 255, 0.65)), url(./data/images/beach.jpg);*/
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -510,7 +530,8 @@ h2 {
 
 .about {
   padding: 40px 0 0 0;
-  background: linear-gradient(rgba(77, 226, 255, 0.7), rgba(156, 219, 255, 0.7)), url(./data/images/coronado.jpg);
+  background: linear-gradient(rgba(77, 226, 255, 0.7), rgba(156, 219, 255, 0.7));
+  /*background: linear-gradient(rgba(77, 226, 255, 0.7), rgba(156, 219, 255, 0.7)), url(./data/images/coronado.jpg);*/
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
