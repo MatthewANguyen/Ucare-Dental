@@ -1,3 +1,7 @@
+.featured {
+    margin-top: -90px;
+}
+
 .featured-header {
     color: #151515;
     font-family: 'Karla', sans-serif;
@@ -7,13 +11,13 @@
 }
 
 .featured-box {
-    background: rgba(61, 61, 61, 0.4);
+    background: #919191;
     font-size: 15px;
     font-family: 'Karla', sans-serif;
 }
 
 .featured-box-even {
-    background: rgba(35, 35, 35, 0.4);
+    background: #5d5d5d;
     font-size: 15px;
     font-family: 'Karla', sans-serif;
 }
@@ -26,4 +30,10 @@
 .featured-box p {
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+    .featured {
+        margin-top: 0px;
+    }
 }

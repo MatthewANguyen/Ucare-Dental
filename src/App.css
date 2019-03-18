@@ -76,6 +76,10 @@ h1 {
   border-color: #f3f3f3;
 }
 
+.text-center {
+  display: inline-block;
+}
+
 input::placeholder {
   color: #acacac;
   font-size: 15px;
@@ -671,12 +675,24 @@ ul {
     display: none;
   }
 
+  .address-style {
+    font-size: 20px;
+  }
+
   /*.home {*/
     /*transform: translateY(50px);*/
   /*}*/
 }
 
 @media (max-width: 767px) {
+
+  .text-center {
+    margin-top: 40px;
+  }
+
+  .btn-contact {
+    width: 80%;
+  }
 
   .greeting {
     font-size: 20px;

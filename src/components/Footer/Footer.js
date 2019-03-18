@@ -9,22 +9,26 @@ class Footer extends React.Component {
             <div className="footer">
                 <div className="container">
                     <div className="row">
-                        <div className="col-sm-4 text-left">
-                            <div className="phone">
-                                <p>
-                                    <span className="glyphicon glyphicon-earphone glyphicon-style"></span>
-                                    <span className="phone-style">858.658.0691</span>
-                                </p>
+                        <div className="col-md-4 col-sm-12 text-left">
+                            <div className="row phone">
+                                <div className="col-xs-12">
+                                    <p>
+                                        <span className="glyphicon glyphicon-earphone glyphicon-style"></span>
+                                        <span className="phone-style">858.658.0691</span>
+                                    </p>
+                                </div>
                             </div>
-                            <div className="address">
-                                <span className="glyphicon glyphicon-map-marker glyphicon-style marker-style"></span>
-                                <div className="address-block">
-                                    <p>
-                                        <span className="address-style">6255 Lusk Blvd Suite 250</span>
-                                    </p>
-                                    <p>
-                                        <span className="address-style">San Diego, CA 92121</span>
-                                    </p>
+                            <div className="row address">
+                                <div className="col-xs-12">
+                                    <span className="glyphicon glyphicon-map-marker glyphicon-style marker-style"></span>
+                                    <div className="address-block">
+                                        <p>
+                                            <span className="address-style">6255 Lusk Blvd Suite 250</span>
+                                        </p>
+                                        <p>
+                                            <span className="address-style">San Diego, CA 92121</span>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                                 <div className="row">
@@ -41,27 +45,35 @@ class Footer extends React.Component {
                                     </div>
                                 </div>
                         </div>
-                        <div className="col-sm-8">
-                            <h1>
-                                Contact Us
-                            </h1>
-                            <div className="col-sm-6">
-                                <div>
-                                    <input type="text" className="form-input" placeholder="NAME"/>
-                                </div>
-                                <div>
-                                    <input type="text" className="form-input" placeholder="EMAIL"/>
-                                </div>
-                                <div>
-                                    <input type="text" className="form-input" placeholder="PHONE"/>
-                                </div>
+                        <div className="col-md-8 col-sm-12">
+                            <div className="row text-center">
+                                <h1>
+                                    Contact Us
+                                </h1>
                             </div>
-                            <div className="col-sm-6">
-                                <textarea className="form-input-message" rows="5" placeholder="MESSAGE">
+                            <div className="row">
+                                <div className="col-sm-6 col-xs-12">
+                                    <div>
+                                        <input type="text" className="form-input" placeholder="NAME"/>
+                                    </div>
+                                    <div>
+                                        <input type="text" className="form-input" placeholder="EMAIL"/>
+                                    </div>
+                                    <div>
+                                        <input type="text" className="form-input" placeholder="PHONE"/>
+                                    </div>
+                                </div>
+                                <div className="col-sm-6 col-xs-12">
+                                    <textarea className="form-input-message" rows="5" placeholder="MESSAGE">
 
-                                </textarea>
+                                    </textarea>
+                                </div>
                             </div>
-                            <button type="submit" className="btn btn-contact">Send</button>
+                            <div className="row">
+                                <div className="col-xs-12">
+                                    <button type="submit" className="btn btn-contact">Send</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
