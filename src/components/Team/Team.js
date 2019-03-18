@@ -20,7 +20,7 @@ class Team extends React.Component {
                             </p>
                         </div>
                         <div className="col-md-6">
-                            <img className="doctor-img" src={doctor} alt="doctor"/>
+                            {/*<img className="doctor-img" src={doctor} alt="doctor"/>*/}
                         </div>
                     </div>
                 </div>

@@ -6,6 +6,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 a{
@@ -41,8 +43,9 @@ h1 {
   color: #f3f3f3;
   padding: 15px 5px 15px 15px;
   margin-bottom: 30px;
-  width: 100%;
+  width: 90%;
   font-size: 13px;
+  float: left;
   /*text-transform: uppercase;*/
 }
 
@@ -125,12 +128,17 @@ textarea::placeholder {
   background-color: #252525;
   color: #f3f3f3;
   border-radius: 0;
-  border-color: #9cdbff;
+  /*border-color: #9cdbff;*/
   text-transform: uppercase;
+  height: 40px;
+  font-size: 14px;
+  transition: none;
 }
 
 .btn-contact:hover {
-  color: #9cdbff;
+  color: #252525;
+  background-color: #f3f3f3;
+  font-weight: bold;
 }
 
 .social-media {
@@ -530,12 +538,10 @@ h2 {
 
 .about {
   padding: 40px 0 0 0;
-  background: linear-gradient(rgba(77, 226, 255, 0.7), rgba(156, 219, 255, 0.7));
   /*background: linear-gradient(rgba(77, 226, 255, 0.7), rgba(156, 219, 255, 0.7)), url(./data/images/coronado.jpg);*/
   background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: #e6e6e6 no-repeat fixed center;
+  height: 900px;
 }
 
 .about h1 {
@@ -564,6 +570,16 @@ h2 {
   letter-spacing: 2.0px;
 }
 
+.map-container {
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+
+.google-map {
+  height: 700px;
+  width: 100%;
+}
+
 .hours {
   margin-bottom: 15px;
 }
@@ -574,9 +590,8 @@ h2 {
   object-fit: contain;
 }
 
-.map {
-  height: 50vh;
-  width: 100%;
+ul {
+  padding-left: 0px;
 }
 
 @media (min-width: 1200px) {
@@ -661,46 +676,24 @@ h2 {
   /*}*/
 }
 
-@media (max-width: 999px) {
-
-  .address-style {
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 991px) {
-  .map {
-    height: 80vh;
-    width: 100%;
-  }
-}
-
 @media (max-width: 767px) {
-
-  h1 {
-    margin-top: 40px;
-  }
 
   .greeting {
     font-size: 20px;
   }
 
-
-}
-
-@media (min-width: 768px) {
-
   .about {
-    padding-bottom: 40px;
+    height: 560px;
   }
 
-}
-
-@media (max-width: 860px) {
-  .home, .office-hours, .about {
-    background-size: cover;
-    background-attachment: scroll;
-    background-position: center;
-    background-repeat: no-repeat;
+  .google-map {
+    height: 420px;
+    width: 100%;
   }
+
+  .map-container {
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+
 }

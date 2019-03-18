@@ -61,7 +61,7 @@ class Footer extends React.Component {
 
                                 </textarea>
                             </div>
-                            <button type="submit" className="btn btn-contact">Submit</button>
+                            <button type="submit" className="btn btn-contact">Send</button>
                         </div>
                     </div>
                 </div>
