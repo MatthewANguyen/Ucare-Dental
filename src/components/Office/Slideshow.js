@@ -9,18 +9,18 @@ import image3 from '../../data/images/office3.jpg';
 export default class Slideshow extends React.Component {
     render() {
         return (
-            <Carousel>
+            <Carousel showStatus={false} infiniteLoop={true} emulateTouch={true}>
                 <div>
                     <img src={image1} />
-                    <p className="legend">Lobby</p>
+                    {/*<p className="legend">Lobby</p>*/}
                 </div>
                 <div>
                     <img src={image2} />
-                    <p className="legend">Front Desk</p>
+                    {/*<p className="legend">Front Desk</p>*/}
                 </div>
                 <div>
                     <img src={image3} />
-                    <p className="legend">Operatory</p>
+                    {/*<p className="legend">Operatory</p>*/}
                 </div>
             </Carousel>
         );
