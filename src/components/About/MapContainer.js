@@ -1,8 +1,7 @@
-import {Map, Marker, GoogleApiWrapper, InfoWindow} from 'google-maps-react';
 import React from "react";
 
 
-export class MapContainer extends React.Component {
+export default class MapContainer extends React.Component {
 
     constructor(props) {
         super(props);
@@ -11,10 +10,6 @@ export class MapContainer extends React.Component {
             activeMarker: {},
             selectedPlace: {},
         };
-
-        // binding this to event-handler functions
-        // this.onMarkerClick = this.onMarkerClick.bind(this);
-        // this.onMapClicked = this.onMapClicked.bind(this);
         this.onScriptLoad = this.onScriptLoad.bind(this)
     }
 
@@ -59,29 +54,3 @@ export class MapContainer extends React.Component {
         );
     }
 }
-
-export default GoogleApiWrapper({
-    // apiKey: ('AIzaSyBizf8It86UPe4lTqO-RoMcPd_VgM3aCr4')
-})(MapContainer)
-
-{/*<Map*/}
-{/*google={this.props.google}*/}
-{/*style={style}*/}
-{/*initialCenter={{*/}
-{/*lat: 32.901419,*/}
-{/*lng: -117.195889*/}
-{/*}}*/}
-{/*zoom={14}*/}
-{/*onClick={this.onMapClicked}*/}
-{/*><Marker*/}
-{/*onClick={this.onMarkerClick}*/}
-{/*title={'Dr. Hien Bui'}*/}
-{/*name={'UCare Dental     '}*/}
-{/*position={{lat: 32.901419, lng: -117.195889}} />*/}
-{/*<InfoWindow*/}
-{/*marker={this.state.activeMarker}*/}
-{/*visible={this.state.showingInfoWindow}>*/}
-{/*<div>*/}
-{/*{this.state.selectedPlace.name}*/}
-{/*</div>*/}
-{/*</InfoWindow></Map>*/}

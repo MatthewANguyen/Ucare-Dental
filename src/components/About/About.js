@@ -1,6 +1,5 @@
 import React from "react";
 import MapContainer from './MapContainer.js';
-import front from "../../data/images/front.jpg";
 
 class About extends React.Component {
 

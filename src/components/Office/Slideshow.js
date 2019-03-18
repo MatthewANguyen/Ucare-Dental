@@ -11,15 +11,15 @@ export default class Slideshow extends React.Component {
         return (
             <Carousel showStatus={false} infiniteLoop={true} emulateTouch={true}>
                 <div>
-                    <img src={image1} />
+                    <img src={image1} alt="office"/>
                     {/*<p className="legend">Lobby</p>*/}
                 </div>
                 <div>
-                    <img src={image2} />
+                    <img src={image2} alt="office"/>
                     {/*<p className="legend">Front Desk</p>*/}
                 </div>
                 <div>
-                    <img src={image3} />
+                    <img src={image3} alt="office"/>
                     {/*<p className="legend">Operatory</p>*/}
                 </div>
             </Carousel>

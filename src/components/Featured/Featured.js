@@ -23,21 +23,21 @@ class Featured extends React.Component {
                         {/*{featured.fastbraces}*/}
                         {/*</div>*/}
                         <div className="col-md-3 col-sm-6 featured-box">
-                            <img src={crown} className="icon-class"/>
+                            <img src={crown} className="icon-class" alt="crown"/>
                             <div className="featured-header">Single-visit Crowns</div>
                             {featured.cerec}
                         </div>
                         <div className="col-md-3 col-sm-6 featured-box-even">
-                            <img src={clean} className="icon-class"/>
+                            <img src={clean} className="icon-class" alt="cleanings"/>
                             <div className="featured-header">Cleanings</div>
                         </div>
                         <div className="col-md-3 col-sm-6 featured-box">
-                            <img src={braces} className="icon-class"/>
+                            <img src={braces} className="icon-class" alt="braces"/>
                             <div className="featured-header">Orthodontics</div>
                             {featured.fastbraces}
                         </div>
                         <div className="col-md-3 col-sm-6 featured-box-even">
-                            <img src={filling} className="icon-class"/>
+                            <img src={filling} className="icon-class" alt="fillings"/>
                             <div className="featured-header">Fillings</div>
                         </div>
                     </div>

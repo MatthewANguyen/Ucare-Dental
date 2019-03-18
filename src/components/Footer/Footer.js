@@ -33,11 +33,11 @@ class Footer extends React.Component {
                             </div>
                                 <div className="row">
                                     <div className="col-xs-4">
-                                        <img src={instagram} className="social-media-icon" />
+                                        <img src={instagram} className="social-media-icon" alt="instagram"/>
                                     </div>
                                     <div className="col-xs-4">
-                                        <a href="https://www.facebook.com/ucare.dental.7" target="_blank">
-                                        <img src={facebook} className="social-media-icon" />
+                                        <a href="https://www.facebook.com/ucare.dental.7" target="_blank" rel="noopener noreferrer">
+                                        <img src={facebook} className="social-media-icon" alt="facebook"/>
                                         </a>
                                     </div>
                                     <div className="col-xs-4">
