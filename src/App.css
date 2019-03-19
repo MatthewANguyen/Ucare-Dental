@@ -30,8 +30,8 @@ h1 {
 
 .footer {
   background-color: #035db0;
-  padding: 80px 0;
-  font-family: 'Karla', sans-serif;
+  padding: 40px 0;
+  font-family: 'Lato', sans-serif;
 }
 
 .form-input {
@@ -92,23 +92,20 @@ textarea::placeholder {
 
 .glyphicon-style {
   color: #f3f3f3;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .phone {
-  padding-bottom: 20px;
 }
 
 .phone-style {
   color: #f3f3f3;
-  font-size: 28px;
+  font-size: 20px;
   padding-left: 12px;
 }
 
 .marker-style {
   position: relative;
-  top: 50%;
-  transform: translateY(-75%);
 }
 
 .address-block {
@@ -121,7 +118,7 @@ textarea::placeholder {
 
 .address-style {
   color: #f3f3f3;
-  font-size: 24px;
+  font-size: 20px;
   padding-left: 12px;
 }
 
@@ -149,9 +146,8 @@ textarea::placeholder {
 }
 
 .social-media-icon {
-  height: 70px;
-  margin-top: 60px;
-  margin-bottom: 20px;
+  height: 30px;
+  float: right;
 }
 
 nav {
