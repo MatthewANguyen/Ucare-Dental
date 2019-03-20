@@ -142,12 +142,8 @@ textarea::placeholder {
   font-weight: bold;
 }
 
-.social-media {
-}
-
 .social-media-icon {
   height: 30px;
-  float: right;
 }
 
 nav {
@@ -371,6 +367,10 @@ h2 {
   font-size: 16px;
   text-align: left;
   line-height: 1.7em;
+}
+
+.slideshow {
+  padding-top: 40px;
 }
 
 .slider {
@@ -613,6 +613,11 @@ ul {
     background-position: bottom;
   }
 
+  .social-media-icon {
+    height: 30px;
+    float: right;
+  }
+
   /*.home {*/
     /*transform: translateY(50px);*/
   /*}*/
@@ -708,4 +713,30 @@ ul {
     padding-right: 3vw;
   }
 
+  .social-media {
+    width: 50%;
+  }
+
+  .social-media-icon{
+    margin-top: 20px;
+  }
+
+}
+
+@media (max-width: 1200px) {
+  .phone-style {
+    font-size: 14px;
+  }
+
+  .address-style {
+    font-size: 14px;
+  }
+
+  .glyphicon-style {
+    font-size: 15px;
+  }
+
+  .social-media-icon {
+    height: 30px;
+  }
 }

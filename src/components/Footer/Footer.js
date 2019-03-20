@@ -9,7 +9,7 @@ class Footer extends React.Component {
             <div className="footer">
                 <div className="container">
                     <div className="row">
-                        <div className="col-sm-2 col-xs-12 text-left">
+                        <div className="col-md-3 col-sm-4 col-xs-12 text-left">
                             <div className="phone">
                                 <p>
                                     <span className="glyphicon glyphicon-earphone glyphicon-style"></span>
@@ -17,7 +17,7 @@ class Footer extends React.Component {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-sm-6 col-xs-12 text-left">
+                        <div className="col-md-6 col-sm-8 col-xs-12 text-left">
                             <div className="address">
                                 <span className="glyphicon glyphicon-map-marker glyphicon-style marker-style"></span>
                                 <div className="address-block">
@@ -30,13 +30,13 @@ class Footer extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-sm-2">
+                        <div className="col-md-1 col-sm-12 col-xs-12">
 
                         </div>
-                        <div className="col-sm-1 col-xs-6">
+                        <div className="col-xs-4 col-md-1 col-sm-4 social-media">
                             <img src={instagram} className="social-media-icon" alt="instagram"/>
                         </div>
-                        <div className="col-sm-1 col-xs-6">
+                        <div className="col-xs-4 col-md-1 col-sm-4 social-media">
                             <a href="https://www.facebook.com/ucare.dental.7" target="_blank" rel="noopener noreferrer">
                                 <img src={facebook} className="social-media-icon" alt="facebook"/>
                             </a>

@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from 'react-scroll'
+// import { Link } from 'react-scroll'
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import logo from '../../data/images/Logo3.png';
 
 
@@ -19,84 +20,63 @@ class Nav extends React.Component {
             <nav>
                 <div className="container">
                     <div>
-                        <img className="logo" src={logo} alt="logo"/>
+                        <Link to="/">
+                            <img className="logo" src={logo} alt="logo"/>
+                        </Link>
                     </div>
                     <div className="link-container nav-wide">
                         <div>
-                            <Link activeClass="active" to="home" spy={true} smooth={true} offset={offset} duration={duration} onSetActive={this.handleSetActive}>
-                                <div className='link'>
-                                    Home
-                                </div>
-                            </Link>
-                            <Link activeClass="active" to="team" spy={true} smooth={true} offset={offset} duration={duration} onSetActive={this.handleSetActive}>
-                                <div className='link'>
-                                    Team
-                                </div>
-                            </Link>
-                            <Link activeClass="active" to="services" spy={true} smooth={true} offset={offset} duration={duration} onSetActive={this.handleSetActive}>
-                                <div className='link'>
-                                    Services
-                                </div>
-                            </Link>
-                            <Link activeClass="active" to="office" spy={true} smooth={true} offset={0} duration={duration} onSetActive={this.handleSetActive}>
-                                <div className='link'>
-                                    Office
-                                </div>
-                            </Link>
-                            <Link activeClass="active" to="about" spy={true} smooth={true} offset={offset} duration={duration} onSetActive={this.handleSetActive}>
-                                <div className='link'>
-                                    About
-                                </div>
-                            </Link>
-                            <Link activeClass="active" to="location" spy={true} smooth={true} offset={offset} duration={duration} onSetActive={this.handleSetActive}>
-                                <div className='link'>
-                                    Location
-                                </div>
-                            </Link>
-                            <Link activeClass="active" to="footer" spy={true} smooth={true} offset={offset} duration={duration} onSetActive={this.handleSetActive}>
-                                <div className='link'>
-                                    Contact
-                                </div>
-                            </Link>
+                            <div className='link'>
+                                Home
+                            </div>
+                            <div className='link'>
+                                Team
+                            </div>
+                            <div className='link'>
+                                Services
+                            </div>
+                            <div className='link'>
+                                Office
+                            </div>
+                            <div className='link'>
+                                About
+                            </div>
+                            <div className='link'>
+                                Location
+                            </div>
+                            <div className='link'>
+                                Contact
+                            </div>
                         </div>
                     </div>
                     <div className="nav-narrow">
                         <span className="menu-bar" onClick={this.navToggle}>&#9776;</span>
                         <div className="narrowLinks">
                             <div className='droplink'>
-                                <Link activeClass="active" to="home" spy={true} smooth={true} offset={0} duration={duration} onSetActive={this.handleSetActive} onClick={this.navToggle}>
-                                    Home
-                                </Link>
+                        
+                                Home
+                            
                             </div>
                             <div className='droplink'>
-                                <Link activeClass="active" to="team" spy={true} smooth={true} offset={0} duration={duration} onSetActive={this.handleSetActive} onClick={this.navToggle}>
-                                    Team
-                                </Link>
+                            
+                                Team
+                            
                             </div>
                             <div className='droplink'>
-                                <Link activeClass="active" to="services" spy={true} smooth={true} offset={0} duration={duration} onSetActive={this.handleSetActive} onClick={this.navToggle}>
-                                    Services
-                                </Link>
+                            
+                                Services
                             </div>
                             <div className='droplink'>
-                                <Link activeClass="active" to="office" spy={true} smooth={true} offset={0} duration={duration} onSetActive={this.handleSetActive} onClick={this.navToggle}>
-                                    Office
-                                </Link>
+                                Office
                             </div>
                             <div className='droplink'>
-                                <Link activeClass="active" to="about" spy={true} smooth={true} offset={0} duration={duration} onSetActive={this.handleSetActive} onClick={this.navToggle}>
-                                    About
-                                </Link>
+                                About
                             </div>
                             <div className='droplink'>
-                                <Link activeClass="active" to="location" spy={true} smooth={true} offset={0} duration={duration} onSetActive={this.handleSetActive} onClick={this.navToggle}>
-                                    Location
-                                </Link>
+                                Location
                             </div>
                             <div className='droplink'>
-                                <Link activeClass="active" to="footer" spy={true} smooth={true} offset={0} duration={duration} onSetActive={this.handleSetActive} onClick={this.navToggle}>
-                                    Contact
-                                </Link>
+                                Contact
                             </div>
                         </div>
                     </div>

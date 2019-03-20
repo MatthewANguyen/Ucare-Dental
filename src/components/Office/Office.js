@@ -8,11 +8,6 @@ class Office extends React.Component {
                 <div className="office-hours">
                     <div className="container">
                         <div className="row">
-                            <div className="col-md-12">
-                                <h1>Office</h1>
-                            </div>
-                        </div>
-                        <div className="row">
                             <div className="col-md-6 col-sm-12 hours">
                                 <div className="row">
                                     <div className="col-xs-12">
@@ -52,14 +47,8 @@ class Office extends React.Component {
                         </div>
                     </div>
                 </div>
+                <div className="slideshow">
                     <div className="container">
-                        <div className="row">
-                             <div className="col-md-12">
-                                  <h5>
-                                      Gallery
-                                  </h5>
-                             </div>
-                        </div>
                         <div className="row">
                             <div className="col-md-1">
 
@@ -73,6 +62,7 @@ class Office extends React.Component {
                         </div>
                     </div>
                 </div>
+            </div>
         );
     }
 }

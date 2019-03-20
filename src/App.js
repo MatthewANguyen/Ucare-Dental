@@ -1,30 +1,17 @@
 import React, { Component } from 'react';
-import Nav from './components/Nav/Nav.js';
+import  {BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import Footer from './components/Footer/Footer.js';
-import Home from './components/Home/Home.js';
-import Featured from './components/Featured/Featured.js';
-import Team from './components/Team/Team.js';
-import Office from './components/Office/Office.js';
-import Services from './components/Services/Services.js';
-import About from './components/About/About.js';
+import HomePage from './pages/HomePage.js';
 import './App.css';
 
-
-class App extends Component {
-  render() {
+function App() {
     return (
       <div className="App">
-          <Nav/>
-          <Home name="home"/>
-          <Featured name="featured"/>
-          <Team name="team"/>
-          <Services name="services"/>
-          <Office name="office"/>
-          <About name="about"/>
-          <Footer name="footer"/>
+      <Router>
+      <Route path="/" exact component={HomePage} />
+      </Router>
       </div>
     );
   }
-}
 
 export default App;

@@ -3,7 +3,7 @@ import instagram from "../../data/images/instagram_icon.png";
 import facebook from "../../data/images/facebook_icon.png";
 // import "./Footer.css";
 
-class Footer extends React.Component {
+class FooterOld extends React.Component {
     render() {
         return(
             <div className="footer">
@@ -82,4 +82,4 @@ class Footer extends React.Component {
     }
 }
 
-export default Footer;
+export default FooterOld;

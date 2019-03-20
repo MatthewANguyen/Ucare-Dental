@@ -4,10 +4,11 @@
   "private": true,
   "homepage": "https://matthewanguyen.github.io/Ucare-Dental/",
   "dependencies": {
-    "react": "^16.8.0-alpha.0",
     "react-dom": "^16.2.0",
     "react-responsive-carousel": "^3.1.47",
-    "react-scripts": "1.1.1",
+    "react-router-dom": "^4.3.0",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "^2.1.8",
     "react-scroll": "^1.7.7",
     "react-scroll-to-component": "^1.0.2",
     "react-slideshow-image": "^1.1.2"
@@ -21,6 +22,13 @@
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "dotenv": "^7.0.0"
-  }
+    "dotenv": "^7.0.0",
+    "react": "^16.8.4"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
