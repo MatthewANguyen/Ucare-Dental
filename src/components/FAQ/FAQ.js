@@ -1,6 +1,6 @@
 import React from "react";
 import "./FAQ.css";
-import Answer from "./Answer.js";
+import QandA from "./QandA";
 
 class FAQ extends React.Component {
 
@@ -10,23 +10,34 @@ class FAQ extends React.Component {
             selection: null
         }
     }
+
     render() {
+
+        let service;
+        var answerArray = [false, false, false, false];
+        if(this.state.selection) {
+            // service = <Answer answer={this.state.selection}/>
+        } else {
+            service = null;
+        }
+
         return(
-            <div className="faq">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-xs-12">
-                            <div className="question">
-                                What kind of services do you offer?
-                            </div>
-                        </div>
-                        <div className="col-xs-12">
-                            <div className="question">
-                                How should I book an appointment?
+            <div>
+                <div className="faq-cover">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-xs-12">
+                                <div className="faq-title">
+                                    Got a question?
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <QandA qa="services"/>
+                <QandA qa="appointment"/>
+                <QandA qa="cancellation"/>
+                <QandA qa="insurance"/>
             </div>
         );
     };

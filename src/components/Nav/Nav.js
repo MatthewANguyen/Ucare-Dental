@@ -30,7 +30,9 @@ class Nav extends React.Component {
                                 Home
                             </div>
                             <div className='link'>
-                                Team
+                                <Link to="/FAQ">
+                                    Team
+                                </Link>
                             </div>
                             <div className='link'>
                                 Services
