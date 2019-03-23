@@ -13,14 +13,6 @@ class FAQ extends React.Component {
 
     render() {
 
-        let service;
-        var answerArray = [false, false, false, false];
-        if(this.state.selection) {
-            // service = <Answer answer={this.state.selection}/>
-        } else {
-            service = null;
-        }
-
         return(
             <div>
                 <div className="faq-cover">

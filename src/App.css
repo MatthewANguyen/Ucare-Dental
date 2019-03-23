@@ -593,6 +593,10 @@ ul {
   padding-left: 0px;
 }
 
+.click-through {
+  pointer-events: none;
+}
+
 @media (min-width: 1200px) {
 
   nav {

@@ -1,16 +1,16 @@
 import React from "react";
 
 const questions = {
-    services: <div><p>
+    services: <div className="click-through"><p>
         What kind of services do you offer?    
     </p></div>,  
-    appointment: <div><p>
+    appointment: <div className="click-through"><p>
         How should I book an appointment?
     </p></div>,  
-    cancellation: <div><p>
+    cancellation: <div className="click-through"><p>
         What's your cancellation policy?
     </p></div>,  
-    insurance: <div><p>
+    insurance: <div className="click-through"><p>
         What insurance do you accept?
     </p></div>
 };

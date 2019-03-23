@@ -8,25 +8,28 @@ class QandA extends React.Component {
     constructor(props) {    
         super(props)
         this.state = {
-            qa: this.props.qa
+            qa: this.props.qa,
+            clicked: false
         }
+        this.handleQuestionClick = this.handleQuestionClick.bind(this);
     }
 
-    handleClick(event) {
-        const id = event.target.id;
-        switch(id) {
-            case "service-qid":
-                
-                break;
-            case "appointment-qid":
-                
-                break;
-            case "cancellation-qid":
-                
-                break;
-            case "insurance-qid":   
-                
-                break;
+    handleQuestionClick(event) {
+        const idString = event.target.id.toString();
+        const answerId = idString.substring(0, idString.length - 4) + "-aid";
+        var answerElement = document.getElementById(answerId);
+        if(!this.state.clicked) {
+            answerElement.classList.remove('answer');
+            answerElement.classList.add('answer-slide');
+            this.setState({
+                clicked: true
+            });
+        } else {
+            answerElement.classList.remove('answer-slide');
+            answerElement.classList.add('answer');
+            this.setState({
+                clicked: false
+            });
         }
     }
 
@@ -36,7 +39,6 @@ class QandA extends React.Component {
         let aid = this.state.qa + "-aid";
         let question ="";
         let answer = "";
-        let className = this.props.clicked;
 
         switch(this.state.qa) {
             case "services":
@@ -55,6 +57,8 @@ class QandA extends React.Component {
                 question = questions.insurance;
                 answer = answers.insurance;
                 break;
+            default:
+                break;  
         }
 
         return(
@@ -62,7 +66,7 @@ class QandA extends React.Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-xs-12">
-                            <div className="question" id={qid} onClick={this.handleClick}>
+                            <div className="question" id={qid} onClick={this.handleQuestionClick}>
                                 {question}
                             </div>
                         </div>

@@ -1,6 +1,6 @@
 import React from "react";
 // import { Link } from 'react-scroll'
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import logo from '../../data/images/Logo3.png';
 
 
@@ -12,9 +12,6 @@ class Nav extends React.Component {
     }
 
     render() {
-
-        let offset = -50;
-        let duration = 800;
 
         return(
             <nav>

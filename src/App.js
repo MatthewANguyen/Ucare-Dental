@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
-import  {BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-import Footer from './components/Footer/Footer.js';
+import React from 'react';
+import  {BrowserRouter as Router, Route } from "react-router-dom";
 import HomePage from './pages/HomePage.js';
 import FAQPage from './pages/FAQPage.js';
 import './App.css';
