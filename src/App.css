@@ -31,7 +31,7 @@ h1 {
 .footer {
   background-color: #035db0;
   padding: 40px 0;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Muli', sans-serif;
 }
 
 
@@ -202,7 +202,7 @@ nav {
   padding: 15px 15px;
   /*background: rgba(119,136,153,0.3);*/
   color: #eeeeee;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Muli', sans-serif;
   font-weight: 300;
   font-size: 26px;
   /*text-transform: uppercase;*/
@@ -251,14 +251,14 @@ h2 {
 
 .office h1 {
   color: #3e3c3d;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Muli', sans-serif;
   font-weight: 300;
   margin: 0 0 20px 0;
 }
 
 .office h2 {
   color: #3e3e3e;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Muli', sans-serif;
   font-weight: 300;
   font-size: 22px;
   margin: 0 0 10px 0;
@@ -267,7 +267,7 @@ h2 {
 
 .office h3 {
   color: #3e3e3e;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Muli', sans-serif;
   font-weight: 300;
   font-size: 22px;
   text-align: right;
@@ -277,7 +277,7 @@ h2 {
 
 .office h4 {
   color: #3e3e3e;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Muli', sans-serif;
   font-weight: 300;
   font-size: 26px;
   margin-bottom: 40px;
@@ -285,7 +285,7 @@ h2 {
 
 .office h5 {
   color: #3e3e3e;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Muli', sans-serif;
   font-weight: 300;
   margin: 40px 0 40px 0;
   font-size: 34px;
@@ -293,7 +293,7 @@ h2 {
 
 .office p {
   color: #3e3e3e;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Muli', sans-serif;
   font-weight: 300;
   font-size: 16px;
   text-align: left;
