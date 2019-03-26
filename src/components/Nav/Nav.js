@@ -32,7 +32,9 @@ class Nav extends React.Component {
                                 Team
                             </div>
                             <div className='link'>
+                            <Link to="/Contact">
                                 Contact
+                            </Link>
                             </div>
                         </div>
                     </div>
@@ -40,15 +42,17 @@ class Nav extends React.Component {
                         <span className="menu-bar" onClick={this.navToggle}>&#9776;</span>
                         <div className="narrowLinks">
                             <div className='droplink'>
-                            <Link to="/FAQ">
-                                FAQ
-                            </Link>                        
+                                <Link to="/FAQ">
+                                    FAQ
+                                </Link>                        
                             </div>
                             <div className='droplink'>                            
                                 Team                           
                             </div>
                             <div className='droplink'>                          
-                                Contact
+                                <Link to="/Contact">
+                                    Contact
+                                </Link>
                             </div>
                         </div>
                     </div>

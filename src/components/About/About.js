@@ -16,11 +16,6 @@ class About extends React.Component {
                     <div className="row">
                         <div className="col-sm-12">
                             <div className="row">
-                                <div className="col-sm-12">
-                                    <h1>Map</h1>
-                                </div>
-                            </div>
-                            <div className="row">
                                 <div className='col-sm-12 map'>
                                     <MapContainer
                                         id="myMap"

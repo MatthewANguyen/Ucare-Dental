@@ -1,0 +1,96 @@
+.contact-cover {
+    height: 750px;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background: #438f50 no-repeat fixed center;
+  }
+
+  .contact-header {
+      font-family: 'Muli', sans-serif;
+      font-size: 28px;
+      margin-bottom: 50px;
+      font-weight: 500;
+  }
+
+  .contact-box {
+      margin-top: 240px;
+  }
+
+  .form-input {
+    background-color: #f3f3f3;
+    border-width: 0 0 1px 0;
+    border-radius: 0;
+    border-color: #afafaf;
+    box-shadow: 0 0;
+    color: #292929;
+    padding: 15px 5px 15px 15px;
+    margin-bottom: 30px;
+    width: 95%;
+    font-size: 14px;
+    float: left; 
+    font-family: 'Muli', sans-serif;
+  }
+  
+  .form-input:focus {
+    outline-width: 0;
+    box-shadow: none;
+    border-color: #afafaf;
+  }
+  
+  .form-input-message {
+    background-color: #f3f3f3;
+    border-width: 1px;
+    border-radius: 0;
+    border-color: #afafaf;
+    box-shadow: 0 0;
+    color: #292929;
+    padding: 15px 5px 15px 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 213px;
+    font-size: 14px;
+    font-family: 'Muli', sans-serif;
+  }
+  
+  .form-input-message:focus {
+    outline-width: 0;
+    box-shadow: none;
+    border-color: #afafaf;
+  }
+  
+  .text-center {
+    display: inline-block;
+  }
+  
+  input::placeholder {
+    color: #acacac;
+    font-size: 15px;
+  }
+  
+  textarea::placeholder {
+    color: #acacac;
+    font-size: 15px;
+  }
+
+  .btn-contact {
+    clear: left;
+    float: none;
+    width: 100%;
+    background-color: transparent;
+    color: #292929;
+    border-radius: 0;
+    border-color: #292929;
+    border-width: 2px;
+    font-weight: bold;
+    height: 40px;
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    transition: none;
+  }
+
+  .btn-contact:hover {
+    background-color: #292929;
+    color: #438f50;
+  }
