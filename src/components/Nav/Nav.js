@@ -14,7 +14,7 @@ class Nav extends React.Component {
     render() {
 
         return(
-            <nav>
+            <nav className="top-scroll">
                 <div className="container">
                     <div>
                         <Link to="/">
@@ -24,24 +24,12 @@ class Nav extends React.Component {
                     <div className="link-container nav-wide">
                         <div>
                             <div className='link'>
-                                Home
-                            </div>
-                            <div className='link'>
                                 <Link to="/FAQ">
-                                    Team
+                                    FAQ
                                 </Link>
                             </div>
                             <div className='link'>
-                                Services
-                            </div>
-                            <div className='link'>
-                                Office
-                            </div>
-                            <div className='link'>
-                                About
-                            </div>
-                            <div className='link'>
-                                Location
+                                Team
                             </div>
                             <div className='link'>
                                 Contact
@@ -52,29 +40,14 @@ class Nav extends React.Component {
                         <span className="menu-bar" onClick={this.navToggle}>&#9776;</span>
                         <div className="narrowLinks">
                             <div className='droplink'>
-                        
-                                Home
-                            
+                            <Link to="/FAQ">
+                                FAQ
+                            </Link>                        
                             </div>
-                            <div className='droplink'>
-                            
-                                Team
-                            
+                            <div className='droplink'>                            
+                                Team                           
                             </div>
-                            <div className='droplink'>
-                            
-                                Services
-                            </div>
-                            <div className='droplink'>
-                                Office
-                            </div>
-                            <div className='droplink'>
-                                About
-                            </div>
-                            <div className='droplink'>
-                                Location
-                            </div>
-                            <div className='droplink'>
+                            <div className='droplink'>                          
                                 Contact
                             </div>
                         </div>

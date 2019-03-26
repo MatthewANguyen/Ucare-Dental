@@ -1,6 +1,8 @@
 .faq {
     padding-top: 10px;
     font-size: 28px;
+    z-index: 100;
+    background: transparent;
 }
 
 .faq-cover {
@@ -15,7 +17,7 @@
 .faq-title {
     font-size: 48px;
     transform: translateY(350px);
-    color: #ffffff;
+    color: #ffffff;   
 }
 
 .question {
@@ -34,14 +36,26 @@
     width: 50%;
 }
 
+.question:hover {
+    cursor: pointer;
+}
+
 .answer {
     font-size: 20px;
     font-weight: 300;
     font-family: 'Lato', sans-serif;
     opacity: 0;
     position: relative;
-    top: -300px;
-    height: 0px;
+    /* top: -300px; */
+    max-height: 0;
+    transition: 0.3s;
+}
+
+.answer-clicked {
+    top: 0px;
+    transition: 1s;  
+    max-height: 100px;
+    opacity: 1;
 }
 
 .answer-slide {

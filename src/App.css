@@ -155,6 +155,12 @@ nav {
   z-index: 2;
 }
 
+.top-scroll {
+  /* background-color: transparent;
+  box-shadow: none;
+  color: #f3f3f3; */
+}
+
 .logo {
   display: inline-block;
   height: 40px;
@@ -193,7 +199,7 @@ nav {
   padding-top: 16px;
   background-color: #f3f3f3;
   text-align: center;
-  top: -345px;
+  top: -145px;
   position: relative;
   transition: .8s;
   z-index: -1;

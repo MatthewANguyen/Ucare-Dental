@@ -17,7 +17,6 @@ class HomePage extends Component {
           <Home name="home"/>
           <Featured name="featured"/>
           <Team name="team"/>
-          <Services name="services"/>
           <Office name="office"/>
           <About name="about"/>
           <Footer name="footer"/>
