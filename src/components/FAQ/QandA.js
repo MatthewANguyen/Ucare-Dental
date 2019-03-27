@@ -17,21 +17,8 @@ class QandA extends React.Component {
     handleQuestionClick(event) {
         const idString = event.target.id.toString();
         const answerId = idString.substring(0, idString.length - 4) + "-aid";
-        var answerElement = document.getElementById(answerId);
         document.querySelector('#'+ answerId).classList.toggle("answer-clicked");
-        // if(!this.state.clicked) {
-        //     answerElement.classList.remove('answer');
-        //     answerElement.classList.add('answer-slide');
-        //     this.setState({
-        //         clicked: true
-        //     });
-        // } else {
-        //     answerElement.classList.remove('answer-slide');
-        //     answerElement.classList.add('answer');
-        //     this.setState({
-        //         clicked: false
-        //     });
-        // }
+        document.querySelector('#'+ idString).classList.toggle("question-clicked");
     }
 
     render() {
@@ -63,22 +50,26 @@ class QandA extends React.Component {
         }
 
         return(
-            <div className="faq text-left">
+            <div className="faq-section text-left">
                 <div className="container">
                     <div className="row">
-                        <div className="col-xs-12">
-                            <div className="question" id={qid} onClick={this.handleQuestionClick}>
-                                {question}
+                        <div className="qanda">
+                            <div className="col-xs-12 nopadding">
+                                <div className="question" id={qid} onClick={this.handleQuestionClick}>
+                                    {question}
+                                </div>
                             </div>
+                            {/* <div className="col-xs-12">
+                                <div className="answer" id={aid}>
+                                    {answer}
+                                </div>
+                            </div> */}
+                            <div className="col-xs-12 nopadding"> 
+                                <div className="answer" id={aid}>                     
+                                    {answer}  
+                                </div>                              
+                            </div>  
                         </div>
-                        {/* <div className="col-xs-12">
-                            <div className="answer" id={aid}>
-                                {answer}
-                            </div>
-                        </div> */}
-                        <div className="col-xs-12 answer" id={aid}>                           
-                            {answer}                           
-                        </div>  
                     </div>
                 </div>
             </div>

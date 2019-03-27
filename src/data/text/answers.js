@@ -5,13 +5,13 @@ const answers = {
         We offer many services, including cleanings, orthodontics, and crowns.
     </p></div>,  
     appointment: <div><p>
-        We offer many services, including cleanings, orthodontics, and crowns.
+        Placeholder
     </p></div>,  
     cancellation: <div><p>
-        We offer many services, including cleanings, orthodontics, and crowns.
+        Placeholder
     </p></div>,  
     insurance: <div><p>
-        We offer many services, including cleanings, orthodontics, and crowns.
+        Placeholder
     </p></div>
 };
 

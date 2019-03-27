@@ -1,21 +1,28 @@
 .contact-cover {
-    height: 750px;
+    height: auto;
     width: 100vw;
     margin: 0;
-    padding: 0;
+    padding-bottom: 50px;
     background-size: cover;
-    background: #438f50 no-repeat fixed center;
+    background: #6ab677 no-repeat fixed center;
   }
 
-  .contact-header {
-      font-family: 'Muli', sans-serif;
-      font-size: 28px;
-      margin-bottom: 50px;
-      font-weight: 500;
-  }
+.contact-header-1 {
+    font-family: 'Muli', sans-serif;
+    font-size: 28px;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+.contact-header-2 {
+    font-family: 'Muli', sans-serif;
+    font-size: 24px;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
 
   .contact-box {
-      margin-top: 240px;
+      margin-top: 150px;
   }
 
   .form-input {

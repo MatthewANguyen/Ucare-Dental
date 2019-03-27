@@ -17,8 +17,19 @@ class Contact extends React.Component {
                 <div className="container">
                     <div className="contact-box">
                         <div className="row text-center">
-                            <div className="contact-header">
-                                Want to get in touch?
+                            <div className="col-xs-12">
+                                <div className="contact-header-1">
+                                    We would love to hear from you
+                                </div>
+                                <div className="contact-header-2">
+                                    Give us a call: (858) 658-0691
+                                </div>
+                                <div className="contact-header-2">
+                                    Or
+                                </div>
+                                <div className="contact-header-2">
+                                    Leave us a message below
+                                </div>
                             </div>
                         </div>
                         <div className="row">
