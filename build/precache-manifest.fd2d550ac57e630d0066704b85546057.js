@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/Ucare-Dental/static/media/clean.56346c65.png"
   },
   {
-    "revision": "31c3c227fe3423e939d5",
+    "revision": "337707b68354f125e44f",
     "url": "/Ucare-Dental/static/css/main.35d3572f.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/Ucare-Dental/static/media/braces.6b96348e.png"
   },
   {
-    "revision": "31c3c227fe3423e939d5",
-    "url": "/Ucare-Dental/static/js/main.3ec4b409.chunk.js"
+    "revision": "337707b68354f125e44f",
+    "url": "/Ucare-Dental/static/js/main.cb9e727f.chunk.js"
   },
   {
     "revision": "82ac820f7e4ffe61fbb116302f552ac3",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/Ucare-Dental/static/css/2.cbfe2f66.chunk.css"
   },
   {
-    "revision": "bd69602b20cec04d12b01884fd25521c",
+    "revision": "b1715c60236a763902e393f6f3b9bb40",
     "url": "/Ucare-Dental/index.html"
   }
 ];
