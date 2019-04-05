@@ -32,7 +32,7 @@ export default class MapContainer extends React.Component {
         if (!window.google) {
             var s = document.createElement('script');
             s.type = 'text/javascript';
-            s.src = `https://maps.google.com/maps/api/js?key=AIzaSyBizf8It86UPe4lTqO-RoMcPd_VgM3aCr4`;
+            s.src = `https://maps.google.com/maps/api/js?key=`;
             var x = document.getElementsByTagName('script')[0];
             x.parentNode.insertBefore(s, x);
             // Below is important.
