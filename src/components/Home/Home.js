@@ -8,8 +8,8 @@ class Home extends React.Component {
                 <div className="container">
                     <div className="row home-row">
                         <div className="col-sm-4 col-xs-6 home-column">
-                            <div className="greeting">Now offering single visit crowns</div>
-                            <div className="greeting">and orthodontics</div>
+                            <div className="greeting">Hello</div>
+                            <div className="greeting">There</div>
                         </div>
                         <div className="col-sm-4">
                         </div>
